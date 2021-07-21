@@ -12,11 +12,13 @@ https://beta-api.gigqo.com/api
 
 API contains basic REST endpoints implementing CRUD operations:
 
-GET     /mockup/track       List all tracks
-GET     /mockup/track/{id}  Get details for specific track
-POST    /mockup/track       Create track
-PUT     /mockup/track       Update track
-DELETE  /mockup/track       Delete Track
+| Metod | Route | Desciption
+|---|---|---|
+| GET   | /mockup/track      | List all tracks 
+| GET   | /mockup/track/{id} | Get details for specific track
+|POST   | /mockup/track      | Create track
+|PUT    | /mockup/track      | Update track
+|DELETE | /mockup/track      | Delete Track
 
 For fetching and storing data you can use simple Flutter approach,
 but are free to implement or use existing solutions of more advanced
