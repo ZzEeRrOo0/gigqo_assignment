@@ -4,28 +4,38 @@ That's standard new Flutter project containing Flutter Counter Demo application.
 
 ## Goals of assingment
 
+You need to clone the repo and create your own branch where you will modify the app.
+
 In your branch you need to handle mock-up data from Gigqo beta-api backend server.
 
-API endpoint URL:
-https://beta-api.gigqo.com/api
-
+API main endpoint URL: https://beta-api.gigqo.com/api
 
 API contains basic REST endpoints implementing CRUD operations:
 
 | Metod | Route | Desciption
 |---|---|---|
-| GET   | /mockup/track      | List all tracks 
-| GET   | /mockup/track/{id} | Get details for specific track
-|POST   | /mockup/track      | Create track
-|PUT    | /mockup/track      | Update track
-|DELETE | /mockup/track      | Delete Track
+| GET    | /mockup/track      | List all tracks 
+| GET    | /mockup/track/{id} | Get details for specific track
+| POST   | /mockup/track      | Create track
+| PUT    | /mockup/track      | Update track
+| DELETE | /mockup/track      | Delete Track
+
+For the moment json response for all endpoints have folowing common structure:
+
+```
+{
+    "status": "",   // "success" or "error"
+    "message": "",  // error specific message
+    "data": {}      // payload of the request
+}
+```
+
+Mockup responses contains static data, but may return errors randomly!
 
 For fetching and storing data you can use simple Flutter approach,
-but are free to implement or use existing solutions of more advanced
-application state management, e.g. Providers, BloC, GetX etc.
+but if you are familiar with more advanced application state management approaches, like Providers, BloC, GetX etc. it is a plus to implement or use existing solutions in app architechture.
 
-Finally your version of App should have corresponding UI to represent
-fetched data with at least one extra screen for detailed information
+Finally your version of App should have UI to represent fetched data with at least one extra screen for detailed information
 about track.
 
 
