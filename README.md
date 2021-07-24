@@ -34,12 +34,11 @@ For track list `data` contains array of track objects which in turn used in othe
 
 ```
 {
-  "id" : {
-      "name": "",   // Name of the track
-      "artist": "", // Artist
-      "year": "",   // Year :-)
-      "cover": ""   // Cover image URL
-    }
+    "id" : ""     // Unique track id
+    "name": "",   // Name of the track
+    "artist": "", // Artist
+    "year": "",   // Year :-)
+    "cover": ""   // Cover image URL
 }
 ```
 
