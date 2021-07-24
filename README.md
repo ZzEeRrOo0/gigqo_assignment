@@ -51,6 +51,19 @@ but if you are familiar with more advanced application state management approach
 Finally your version of App should have UI to represent fetched data with at least one extra screen for detailed information
 about track.
 
+### Required objectives
+
+To complete the assignment successfully you must fulfill the following tasks:
+- Build three screens. 
+    1. Home screen - standard flutter demo home page.
+    2. Tracks screen - a list of tracks from API.
+    3. Single track screen - a single track from API.   
+- Navigation and routes should be set up and used throughout the app.
+- Interaction with the ‘flutter demo home page’ counter on 1 of the other screens.
+
+### Optional extras
+
+Feel free to add animations, custom design, effects and gestures. These extras aren't required but are a plus if implemented. It's also possible to add links of your git reposotories to this README if you already built apps with these widgets.  
 
 
 ## Flutter Getting Started documentation
