@@ -43,6 +43,8 @@ For track list `data` contains array of track object which in turn used in other
 }
 ```
 
+In your requests which modify data you may use same json object with same structure as request body.
+
 Mockup responses contains static data, but may return errors randomly!
 
 For fetching and storing data you can use simple Flutter approach,
