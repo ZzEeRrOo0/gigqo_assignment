@@ -25,8 +25,8 @@ For the moment json response for all endpoints have folowing common structure:
 ```
 {
     "status": "",   // "success" or "error"
-    "message": "",  // error specific message or null in case of success
     "data": {}      // payload of the request or null in case if error
+    "message": "",  // error specific message or null in case of success
 }
 ```
 
