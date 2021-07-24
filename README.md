@@ -30,14 +30,14 @@ For the moment json response for all endpoints have folowing common structure:
 }
 ```
 
-For track list `data` contains array of track object which in turn used in other API endpoints:
+For track list `data` contains array of track objects which in turn used in other API endpoints:
 
 ```
 {
   "id" : {
-      "Name": "",   // Name of the track
-      "Artist": "", // Artist
-      "Year": "",   // Year :-)
+      "name": "",   // Name of the track
+      "artist": "", // Artist
+      "year": "",   // Year :-)
       "cover": ""   // Cover image URL
     }
 }
