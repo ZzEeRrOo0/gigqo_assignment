@@ -14,19 +14,32 @@ API contains basic REST endpoints implementing CRUD operations:
 
 | Metod | Route | Desciption
 |---|---|---|
-| GET    | /mockup/track      | List all tracks 
-| GET    | /mockup/track/{id} | Get details for specific track
-| POST   | /mockup/track      | Create track
-| PUT    | /mockup/track      | Update track
-| DELETE | /mockup/track      | Delete Track
+| GET    | /mockup/tracks      | List all tracks 
+| GET    | /mockup/tracks/{id} | Get details for specific track
+| POST   | /mockup/tracks      | Create track
+| PUT    | /mockup/tracks      | Update track
+| DELETE | /mockup/tracks      | Delete Track
 
 For the moment json response for all endpoints have folowing common structure:
 
 ```
 {
     "status": "",   // "success" or "error"
-    "message": "",  // error specific message
-    "data": {}      // payload of the request
+    "message": "",  // error specific message or null in case of success
+    "data": {}      // payload of the request or null in case if error
+}
+```
+
+For track list `data` contains array of track object which in turn used in other API endpoints:
+
+```
+{
+  "id" : {
+      "Name": "",   // Name of the track
+      "Artist": "", // Artist
+      "Year": "",   // Year :-)
+      "cover": ""   // Cover image URL
+    }
 }
 ```
 
