@@ -58,7 +58,10 @@ To complete the assignment successfully you must fulfill the following tasks:
 - Build three screens. 
     1. Home screen - standard flutter demo home page.
     2. Tracks screen - a list of tracks from API.
-    3. Single track screen - a single track from API.   
+    3. Single track screen - a single track from API.
+- Build two forms.
+    1. Add new track to database.
+    2. Edit one track.       
 - Navigation and routes should be set up and used throughout the app.
 - Interaction with the ‘flutter demo home page’ counter on 1 of the other screens.
 
