@@ -1,0 +1,1 @@
+const String baseApiURL = "https://beta-api.gigqo.com/api";
